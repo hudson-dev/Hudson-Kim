@@ -1,4 +1,14 @@
 @font-face {
+    font-family: "Sequel-45";
+    src: url("C:/Users/hudson/development/codeacademy/Web Dev/Hudson Kim/assets/fonts/Sequel100Black-45.ttf");
+}
+
+@font-face {
+    font-family: "Sequel-55";
+    src: url("C:/Users/hudson/development/codeacademy/Web Dev/Hudson Kim/assets/fonts/Sequel100Black-55.ttf");
+}
+
+@font-face {
     font-family: "Matroska";
     src: url("C:/Users/hudson/development/codeacademy/Web Dev/Hudson Kim/assets/fonts/Matroska.ttf");
 }
@@ -23,6 +33,10 @@
     src: url("C:/Users/hudson/development/codeacademy/Web Dev/Hudson Kim/assets/fonts/Sequel100Black-95.ttf");
 }
 
+html, body {
+    height: 100%;
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -32,14 +46,17 @@
     font-family: "Sequel-85", sans-serif;
 }
 
-.home {
-    width: 100%;
-    height: 100vh;
+/* .logo {
+    background-image: url("./assets/images/profile.jpeg");
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+  
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+} */
 
 nav {
     position: fixed;
@@ -49,6 +66,15 @@ nav {
 
     margin-top: 2.2em;
     margin-left: 3em;
+}
+
+nav h2 {
+    font-family: "Sequel-65", sans-serif;
+    letter-spacing: 0px;
+    font-size: 13px;
+    font-weight: bold;
+
+    margin-left: 1.2em;
 }
 
 #logo {
@@ -66,27 +92,6 @@ nav {
     top: 50%;
 }
 
-.logo {
-    background-image: url("./assets/images/profile.jpeg");
-
-    width: 3em;
-    height: 3em;
-    border-radius: 50%;
-  
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-}
-
-nav h2 {
-    font-family: "Sequel-65", sans-serif;
-    letter-spacing: 0px;
-    font-size: 13px;
-    font-weight: bold;
-
-    margin-left: 1.2em;
-}
-
 .menu {
     display: flex;
     flex-direction: column;
@@ -101,13 +106,132 @@ nav h2 {
     margin-bottom: 0.2em;
 }
 
+.home {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
 
 h1 {
     font-family: "Sequel-85", sans-serif;
     font-weight: 1000;
     font-size: 42px;
-    line-height: 42px;
+    line-height: 1em;
     margin-left: 1.5em;
 
-    overflow-y: hidden;
+    overflow: hidden;
+}
+
+.about {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    
+    background-color: blue;
+}
+
+.about hr {
+    margin-top: 9.2em;
+    margin-left: 4.4em;
+
+    width: 40px;
+}
+
+.about h2 {
+    font-family: "Sequel-65", sans-serif;
+    font-weight: 200;
+    overflow: hidden;
+    font-size: 22px;
+    color: white;
+
+    margin-left: 3em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.about p {
+    font-family: "Sequel-45", sans-serif;
+    font-weight: 200;
+    overflow: hidden;
+    font-size: 20px;
+    color: white;
+
+    margin-left: 3em;
+    margin-right: 2em;
+
+    max-width: 750px;
+}
+
+#quote {
+    font-size: 18px;
+    margin-left: 5em;
+    margin-right: 3.5em;
+}
+
+#elon {
+    margin-left: 4.6em;
+    margin-bottom: 2em;
+    font-family: "Sequel-85", sans-serif;
+
+    font-weight: 200;
+    overflow: hidden;
+    font-size: 20px;
+    color: white;
+}
+
+#imp {
+    margin-left: 3em;
+    margin-bottom: 2em;
+    font-family: "Sequel-55", sans-serif;
+
+    font-weight: 200;
+    overflow: hidden;
+    font-size: 20px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1000px){
+	/*Small smartphones [325px -> 425px]*/
+}
+
+
+@media only screen and (max-width: 600px){
+	/*Small smartphones [325px -> 425px]*/
+    h1 {
+        font-size: 35px;
+        margin-left: 1em;
+    }
+
+    nav {
+        margin-left: 0.8em;
+    }
+
+    .menu {
+        margin-right: 3.6em;
+    }
+}
+
+@media (min-width: 1200px) {    
+    h1 {
+        font-size: 50px;
+    }
 }
