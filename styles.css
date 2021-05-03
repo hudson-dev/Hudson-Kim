@@ -1,36 +1,36 @@
 @font-face {
     font-family: "Sequel-45";
-    src: url("C:/Users/hudson/development/codeacademy/Web Dev/Hudson Kim/assets/fonts/Sequel100Black-45.ttf");
+    src: url("./assets/fonts/Sequel100Black-45.ttf");
 }
 
 @font-face {
     font-family: "Sequel-55";
-    src: url("C:/Users/hudson/development/codeacademy/Web Dev/Hudson Kim/assets/fonts/Sequel100Black-55.ttf");
+    src: url("./assets/fonts/Sequel100Black-55.ttf");
 }
 
 @font-face {
     font-family: "Matroska";
-    src: url("C:/Users/hudson/development/codeacademy/Web Dev/Hudson Kim/assets/fonts/Matroska.ttf");
+    src: url("./assets/fonts/Matroska.ttf");
 }
 
 @font-face {
     font-family: "Sequel-65";
-    src: url("C:/Users/hudson/development/codeacademy/Web Dev/Hudson Kim/assets/fonts/Sequel100Black-65.ttf");
+    src: url("./assets/fonts/Sequel100Black-65.ttf");
 }
 
 @font-face {
     font-family: "Sequel-75";
-    src: url("C:/Users/hudson/development/codeacademy/Web Dev/Hudson Kim/assets/fonts/Sequel100Black-75.ttf");
+    src: url("./assets/fonts/Sequel100Black-75.ttf");
 }
 
 @font-face {
     font-family: "Sequel-85";
-    src: url("C:/Users/hudson/development/codeacademy/Web Dev/Hudson Kim/assets/fonts/Sequel100Black-85.ttf");
+    src: url("./assets/fonts/Sequel100Black-85.ttf");
 }
 
 @font-face {
     font-family: "Sequel-95";
-    src: url("C:/Users/hudson/development/codeacademy/Web Dev/Hudson Kim/assets/fonts/Sequel100Black-95.ttf");
+    src: url("./assets/fonts/Sequel100Black-95.ttf");
 }
 
 html, body {
