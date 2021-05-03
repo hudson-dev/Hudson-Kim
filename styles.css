@@ -41,7 +41,7 @@ html, body {
     margin: 0px;
     padding: 0px;
 
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 
     font-family: "Sequel-85", sans-serif;
 }
@@ -68,6 +68,14 @@ nav {
     margin-left: 3em;
 }
 
+.nav {
+    color: black;
+    -webkit-transition: color 0.2s ease;
+    -moz-transition: color 0.2s ease;
+    -o-transition: color 0.2s ease;
+    transition: color 0.2s ease;
+}
+
 nav h2 {
     font-family: "Sequel-65", sans-serif;
     letter-spacing: 0px;
@@ -85,11 +93,17 @@ nav h2 {
 
 #logo::after {
     border-bottom: 0.25em solid blue;
+    border-color: blue;
     content: "";
     left: 0;
     position: absolute;
     right: 0;
     top: 50%;
+
+    -webkit-transition: border-color 1s ease;
+    -moz-transition: border-color 1s ease;
+    -o-transition: border-color 1s ease;
+    transition: border-color 1s ease;
 }
 
 .menu {
@@ -123,6 +137,10 @@ h1 {
     margin-left: 1.5em;
 
     overflow: hidden;
+}
+
+#startchange {
+    height: 1px;
 }
 
 .about {
