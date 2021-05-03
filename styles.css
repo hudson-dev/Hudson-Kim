@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "Matroska";
+    src: url("C:/Users/hudson/development/codeacademy/Web Dev/Hudson Kim/assets/fonts/Matroska.ttf");
+}
+
+@font-face {
+    font-family: "Sequel-85";
+    src: url("C:/Users/hudson/development/codeacademy/Web Dev/Hudson Kim/assets/fonts/Sequel100Black-85.ttf");
+}
+
+@font-face {
+    font-family: "Sequel-95";
+    src: url("C:/Users/hudson/development/codeacademy/Web Dev/Hudson Kim/assets/fonts/Sequel100Black-95.ttf");
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+    overflow-x: hidden;
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font-family: "Sequel-85", sans-serif;
+    font-size: 42px;
+    line-height: 42px;
+    margin-left: 1.5em;
+}
