@@ -138,7 +138,7 @@ nav h2 {
 
 h1 {
     font-family: "Sequel-85", sans-serif;
-    font-weight: 1000;
+    font-weight: 900;
     font-size: 42px;
     line-height: 1em;
     margin-left: 1.5em;
@@ -294,8 +294,9 @@ h1 {
 }
 
 .cell img {
-    height: 10em; /* you can use % */
-    width: 10em;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 
     display: block;
     margin-left: auto;
