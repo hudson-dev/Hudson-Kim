@@ -15,7 +15,7 @@ $(document).ready(function(){
     console.log(offset);
     scroll_start = $(this).scrollTop();
     if(scroll_start > topOffset.top) {
-      $(".home").css('background-color', 'blue');
+      $("#home").css('background-color', 'blue');
 
       $(".nav").css('color', 'orange');
       $("<style>#logo::after{border-color: orange}</style>" ).appendTo("head");
@@ -25,7 +25,7 @@ $(document).ready(function(){
 
       $("h1").css('color', 'white');
     } else {
-      $(".home").css('background-color', 'white');
+      $("#home").css('background-color', 'white');
 
       $('.nav').css('color', 'black');
       $("<style>#logo::after{border-color: blue}</style>" ).appendTo("head");
