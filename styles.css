@@ -47,17 +47,10 @@ html, body {
     font-family: "Sequel-85", sans-serif;
 }
 
-/* .logo {
-    background-image: url("./assets/images/profile.jpeg");
-
-    width: 3em;
-    height: 3em;
-    border-radius: 50%;
-  
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-} */
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
 
 nav {
     position: fixed;
@@ -158,7 +151,7 @@ h1 {
     display:none;
 }
 
-.about {
+#about {
     width: 100%;
     min-height: 100%;
 
@@ -168,14 +161,14 @@ h1 {
     background-color: blue;
 }
 
-.about hr {
+#about hr {
     margin-top: 9.2em;
     margin-left: 4.4em;
 
     width: 40px;
 }
 
-.about h2 {
+#about h2 {
     font-family: "Sequel-65", sans-serif;
     font-weight: 200;
     overflow: hidden;
@@ -187,7 +180,7 @@ h1 {
     margin-bottom: 2em;
 }
 
-.about p {
+#about p {
     font-family: "Sequel-45", sans-serif;
     font-weight: 200;
     overflow: hidden;
@@ -235,7 +228,7 @@ h1 {
 }
 
 
-.work {
+#work {
     width: 100%;
     min-height: 100%;
 
@@ -248,7 +241,7 @@ h1 {
     margin-bottom: 50px;
 }
 
-.work hr {
+#work hr {
     width: 40px;
     height: 0.25em;
     color: blue;
@@ -258,7 +251,7 @@ h1 {
     /* margin-left: 4.5em; */
 }
 
-.work h2 {
+#work h2 {
     font-size: 30px;
     margin-bottom: 22px;
 
@@ -382,7 +375,7 @@ h1 {
       display: table-cell;
     }
 
-    .work {
+    #work {
         margin-top: 6em;
     }
   }
@@ -407,7 +400,7 @@ h1 {
     display: table-cell;
   }
 
-  .work {
+  #work {
     margin-top: 6em;
   }
 }
