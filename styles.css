@@ -294,17 +294,18 @@ h1 {
 }
 
 .cell img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-
     display: block;
     margin-left: auto;
     margin-right: auto;
-
-    margin-top: 25%;
+    
+    max-width: 8em;
+    height: 100%;
+    object-fit: contain;
 }
 
+#spacex {
+    max-width: 16em;
+}
 
 .contact {
     width: 100%;
@@ -360,10 +361,6 @@ h1 {
  #hidden {
      display: none;
  }
-
-
-
-
 
 @media only screen and (max-width: 1100px) {
     .grid {
