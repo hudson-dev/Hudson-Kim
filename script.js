@@ -1,5 +1,5 @@
 // @ts-nocheck
-console.log("Start");
+// console.log("Start");
 
 $(document).ready(function(){       
   var scroll_start = 0;
@@ -12,7 +12,7 @@ $(document).ready(function(){
   if (startchange.length){
   $(document).scroll(function() { 
 
-    console.log(offset);
+    // console.log(offset);
     scroll_start = $(this).scrollTop();
     if(scroll_start > topOffset.top) {
       $("#home").css('background-color', 'blue');
