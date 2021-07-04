@@ -2,7 +2,7 @@
 > A profile project for Codecademy's Full Stack Pro Path.  Visit the website: [here](https://hudson-dev.github.io/Hudson-Kim/)
 
 ## Table of contents
-- [SpaceX Homepage](#hudson-kim)
+- [Hudson Kim](#hudson-kim)
   - [Table of contents](#table-of-contents)
   - [General info](#general-info)
   - [Technologies](#technologies)
